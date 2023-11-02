@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-35dp"
+    tools:layout_editor_absoluteY="-454dp">
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Bienvenido"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="362dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="539dp"
+        android:ems="10"
+        android:hint="Nombre:"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:onClick="validar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo"
+        app:layout_constraintVertical_bias="0.928" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="457dp"
+        android:ems="10"
+        android:hint="Apellido:"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="366dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="374dp"
+        android:ems="10"
+        android:hint="Telefono:"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Edittextcorreo"
+        android:layout_width="366dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="286dp"
+        android:ems="10"
+        android:hint="Correo:"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="182dp"
+        android:text="Guardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="365dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="108dp"
+        android:text="Limpiar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
